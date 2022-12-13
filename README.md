@@ -12,7 +12,7 @@ The React application uses npm with a custom webpack setup. The Python part uses
 
 The application is run with docker-compose and contains a Jupyter notebook and load balancer setup next to the application. Starting up works with `AUTOCHEMPLETE_DB_PASSWORD=some_password docker compose up --build`. This makes the app available at `http://localhost:8080`.
 
-AutoChemplete integrates into a larger application that also embeds a computer vision model for recognizing chemical formula images into SMILES strings, which is not published with this code so far.
+AutoChemplete integrates into a larger application that also embeds a computer vision model for recognizing chemical formula images into SMILES strings, which can be found under smiles-cv-model.
 Integration works via URL parameters on the `/label` URL.
 
 #### Parameters
